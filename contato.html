@@ -9,7 +9,7 @@
 
   <!--css-->
   <link rel="stylesheet" href="/css/style.css">
-  <title>Moon-Trip | Recife</title>
+  <title>Moon-Trip | Contato</title>
 </head>
 
 <body>
@@ -76,71 +76,51 @@
     </div>
   </nav>
 
-  <!--grid-foto-->
-  <div class="container text-center">
-    <div class="my-5">
-      <span class="h6 d-block">O MELHOR DESTINO DA SUA VIAGEM</span>
-      <h2 class="display-4 text-primary" style="font-weight: 500;">Conheça Recife</h2>
+  <section class="container">
+    <div class="my-5 text-center">
+      <span class="h6 d-block ">POSSUI ALGUMA DÚVIDA?</span>
+      <h2 class="display-4 text-primary" style="font-weight: 500;" >Fale Conosco</h2>
     </div>
     <div class="row">
-      <div class="col-md">
-        <img class="img-fluid mb-4" src="/img/local/foto-3.jpg" alt="foto-3">
-        <img class="img-fluid mb-4" src="/img/local/foto-13.jpg" alt="foto-1">
+      <div class="col-lg mb-5">
+        <form class="bg-light rounded p-4 box-shadow">
+          <div class="mb-3">
+            <label for="clienteNome" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="clienteNome" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="clienteEmail" class="form-label">E-mail</label>
+            <input type="email" class="form-control" id="clienteEmail">
+          </div>
+          <div class="mb-3">
+            <label for="clienteMensagem" class="form-label">Mensagem</label>
+            <textarea name="Mensagem" id="clienteMensagem" class="form-control" rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
       </div>
-      <div class="col-md">
-        <img class="img-fluid mb-4" src="/img/local/foto-12.jpg" alt="foto-1">
-        <img class="img-fluid mb-4" src="/img/local/foto-15.jpg" alt="foto-2">
-      </div>
-      <div class="col-md">
-        <img class="img-fluid mb-4" src="/img/local/foto-18.jpg" alt="foto-3">
-        <img class="img-fluid mb-4" src="/img/local/foto-7.jpg" alt="foto-1">
+      <div class="col-lg mb-5">
+        <h2 class="h6">NOSSO ENDEREÇO</h2>
+          <a href="#">
+            <img class="img-fluid box-shadow rounded mb-4" src="/img/mapa.png" alt="mapa">
+          </a>
+          <h2 class="h6">DADOS DE CONTATO</h2>
+          <ul class="list-unstyled text-secondary">
+            <li>moontrip@moontrip.com.br</li>
+            <li>85 99999-9999</li>
+            <li>De Seg. à Sex. das 8h às 18h</li>
+          </ul>
+          <h2 class="h6">REDES SOCIAIS</h2>
+          <ul class="list-unstyled text-secondary">
+            <li><a href="#" class="btn btn-outline-secondary mb-2 btn-block">Facebook</a></li>
+            <li><a href="#" class="btn btn-outline-secondary mb-2 btn-block">Instagram</a></li>
+            <li><a href="#" class="btn btn-outline-secondary mb-2 btn-block">Youtube</a></li>
+          </ul>  
       </div>
     </div>
-  </div>
-
-  <!--eventos-->
-  <section class="container text-center">
-    <div class="my-5">
-      <span class="h6 d-block">DESCUBRA O QUE ACONTECE NA CIDADE</span>
-      <h2 class="display-4 text-primary" style="font-weight: 500;">Próximos Eventos</h2>
-    </div>
-   <table class="table table-hover my-5">
-      <thead>
-        <tr>
-          <th scope="col">Data</th>
-          <th scope="col">Evento</th>
-          <th scope="col">Local</th>
-          <th scope="col">Ticket</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">23/10</th>
-          <td>Julien Baker</td>
-          <td>The Academy</td>
-          <td><a href="#" class="btn btn-outline-secondary btn-sm">Comprar Ticket</a></td>
-        </tr>
-        <tr>
-          <th scope="row">23/10</th>
-          <td>Julien Baker</td>
-          <td>The Academy</td>
-          <td><a href="#" class="btn btn-outline-secondary btn-sm">Comprar Ticket</a></td>
-        </tr>
-        <tr>
-          <th scope="row">23/10</th>
-          <td>Julien Baker</td>
-          <td>The Academy</td>
-          <td><a href="#" class="btn btn-outline-secondary btn-sm">Comprar Ticket</a></td>
-        </tr>
-        <tr>
-          <th scope="row">23/10</th>
-          <td>Julien Baker</td>
-          <td>The Academy</td>
-          <td><a href="#" class="btn btn-outline-secondary btn-sm">Comprar Ticket</a></td>
-        </tr>
-      </tbody>
-    </table>
   </section>
+
+
 
   <!--footer-->
   <footer class="bg-dark text-white">
