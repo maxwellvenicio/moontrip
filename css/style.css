@@ -11,7 +11,7 @@ box-shadow: 0px 2px 4px 0 rgba(0,0,0,0.2 );
 }
 
 #msg-quote {
-background: url(/img/bg-quote.jpg);
+background: url(img/bg-quote.jpg);
 background-size: cover;
 }
 
